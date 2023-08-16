@@ -73,6 +73,12 @@ const displayQuiz = (data) => {
 </div>`;
   });
 };
+quizContainer.addEventListener('click',function(){
+  if(answers.length=== 6){
+    document.getElementById('submit').classList.remove('disabled:opacity-25');
+    document.getElementById('submit').disabled = false;
+  }
+})
 
 // EventListener for quiz submit button
 document.querySelector("#submit").addEventListener("click", () => {
