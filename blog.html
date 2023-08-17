@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+</head>
+
+<body>
+    <header>
+        <h1>Blogs</h1>
+    </header>
+    <main>
+        <div>
+            <h3>What are the difference between map, filter, forEach and find?</h3>
+            <p><span style="font-weight: bold;">Answer :</span>
+                The method map returns a new array after executing some code on each of the array element. Filter also
+                returns a new array after filtering each of the array element with the filtering condition. Find returns
+                only one array element which first meets the condition. And forEach method returns undefined after
+                performing some code on each array elements.
+            </p>
+        </div>
+        <div>
+            <h3>What are the differences between local Storage, session storage and cookies?</h3>
+            <p><span style="font-weight: bold;">Answer :</span>
+                LocalStorage data is stored permanently until it is explicitly deleted by the user or the developer.
+                SessionStorage data is stored only for the current session, which ends when the browser is closed.
+                Cookies can be set to expire after a certain amount of time, or they can be set to expire when the
+                browser is closed.
+            </p>
+        </div>
+        <div>
+            <h3>WHat is an Event loop?</h3>
+            <p><span style="font-weight: bold;">Answer :</span>
+            An event loop is a programming construct that waits for and dispatches events in a program. When a
+            function
+            is called, it is added to the call stack. The event loop will execute the functions on the call stack until
+            it is empty. If there are no functions on the call stack, the event loop will check the event queue for any
+            events that need to be processed.</p>
+        </div>
+        <div>
+            <h3>What does the quizTimer() function do?</h3>
+            <p><span style="font-weight: bold;">Answer :</span>
+                In the given project, quizTimer function evaluates and shows the time from starting the quiz in minutes
+                and seconds. It uses setInterval asynchronous function to increment count variable after each second and
+                then it converts that seconds to minutes and seconds to display it. If the time period exceeds 60
+                seconds then it changes the color of time period to light and deep red alternatively.</p>
+        </div>
+        <div>
+            <h3>What does the chooseQuiz() function do?</h3>
+            <p><span style="font-weight: bold;">Answer :</span>
+
+                The chooseQuiz() function is used to select an option for a quiz question. It takes two parameters: the
+                index of the question and the selected option.
+
+                The function first checks if the answer already exists in the answers array. If it does, the function
+                updates the given answer for that question. Otherwise, the function adds a new object to the answers
+                array with the question, the selected option, and the given answer.
+
+                Finally, the function calls the displayAnswers() function to display the answers for the quiz.</p>
+        </div>
+    </main>
+
+</body>
+
+</html>
